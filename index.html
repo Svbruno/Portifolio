@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio DEV</title>
+  <link rel="stylesheet" href="style.css" />
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+  <div class="header-container">
+    <div class="header-left">
+      <h1>
+        Olá, eu sou Bruno
+      </h1>
+      <p>Desenvolvedor Front-End focado em criar experiências incríveis.</p>
+    </div>
+    <nav class="header-right">
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#projetos">Meus Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section id="sobre" data-aos="fade-up">
+      <h2>Sobre mim</h2>
+      <p>Escreva aqui uma breve descrição sobre você, suas habilidades e experiências.</p>
+    </section>
+
+    <section id="projetos" data-aos="zoom-in">
+      <h2>Meus Projetos</h2>
+      <div class="projetos-container">
+          <div>
+    <h3>Projeto 1</h3>
+    <p>Descrição breve do projeto, tecnologias usadas, etc.</p>
+  </div>
+      </div>
+    </section>
+
+    <section id="contato" data-aos="fade-right">
+      <h2>Entre em Contato</h2>
+      <form id="form-contato">
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Bruno Veronesi. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
